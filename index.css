@@ -7,6 +7,12 @@ body {
     object-fit: cover; 
   }
   button:hover {
-    transform: scale(1.05); /* Aumenta o tamanho do botão em 20% */
-    transition: transform 0.35s ease-in-out; /* Suaviza o aumento de tamanho */
+    transform: scale(1.05); 
+    transition: transform 0.35s ease-in-out; 
+}
+.card:hover{
+ 
+  transform: scale(1.05); 
+  transition: transform 0.35s ease-in-out; 
+  cursor: pointer; 
 }
